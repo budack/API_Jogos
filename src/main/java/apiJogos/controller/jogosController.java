@@ -68,7 +68,7 @@ public class jogosController {
 
 
     @PutMapping("/{id}") public ResponseEntity<Jogos> atualizar(@PathVariable Long id,
-                                                                @RequestBody Jogos jogoAtualizado) {
+                                                                @RequestBody Jogos jogoAtualizado) {//metodo para atualizar um jogo existente
         for (Jogos jogo : bancoDados) {
             if (jogo.getId().equals(id)) {
                 jogo.setNome(jogoAtualizado.getNome());// altera o nome
