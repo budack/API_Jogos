@@ -93,4 +93,7 @@ public class jogosController {
         return ResponseEntity.notFound().build();
     }
 }
+//Vinicius Budack 60004996
+//Danilo Sanches 60004975
+//Isabela Candido 60004968
 
